@@ -1,27 +1,29 @@
+# 模板地址： https://github.com/blinkfox/hexo-theme-matery
+
 # main menu navigation url and icon
 # 配置菜单导航的名称、路径和图标icon.
 menu:
   Index:
     url: /
     icon: fas fa-home
-  Tags:
-    url: /tags
-    icon: fas fa-tags
+  # Tags:
+  #   url: /tags
+  #   icon: fas fa-tags
   Categories:
     url: /categories
     icon: fas fa-bookmark
-  Archives:
-    url: /archives
-    icon: fas fa-archive
+  # Archives:
+  #   url: /archives
+  #   icon: fas fa-archive
   About:
     url: /about
     icon: fas fa-user-circle
   Contact:
     url: /contact
     icon: fas fa-comments
-  Friends:
-    url: /friends
-    icon: fas fa-address-book
+  # Friends:
+  #   url: /friends
+  #   icon: fas fa-address-book
   # 二级菜单写法如下
   #Medias:
   #  icon: fas fa-list
@@ -42,10 +44,10 @@ menu:
 # Website start time.
 # 站点运行开始时间.
 time:
-  enable: false
+  enable: true
   year: 2019 # 年份
-  month: 06 # 月份
-  date: 28 # 日期
+  month: 12 # 月份
+  date: 26 # 日期
   hour: 00 # 小时
   minute: 00 # 分钟
   second: 00 # 秒
@@ -72,7 +74,7 @@ dream:
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
-  enable: false
+  enable: true
   showTitle: true
   title: 听听音乐
   fixed: false # 开启吸底模式
@@ -121,20 +123,20 @@ indexbtn:
   enable: true
   name: Github
   icon: fab fa-github-alt
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://github.com/l616769490/
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  github:  https://github.com/blinkfox
-  email: 1181062873@qq.com
+  github:  https://github.com/l616769490/
+  email: l616769490@126.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
-  qq: 1181062873
+  qq: 616769490
   weibo: # https://weibo.com/xxx
   zhihu: # https://www.zhihu.com/xxx
-  rss: true # true、false
+  rss: false # true、false
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -158,7 +160,7 @@ reward:
   enable: true
   title: 你的赏识是我前进的动力
   wechat: /medias/reward/wechat.png
-  alipay: /medias/reward/alipay.jpg
+  alipay: /medias/reward/alipay.png
 
 # Whether to activate the copyright information of the blog and author when copying the post content.
 # minCharNumber: Approve copyright information by copying at least how many characters.
@@ -174,7 +176,7 @@ copyright:
 # 是否激活mathjax数学公式，这是全局配置，但文章仍然不会都开启mathjax渲染，
 # 考虑到mathjax加载比较耗时，你还需要在需要渲染的文章的Front-matter中再加上`mathjax: true`才行.
 mathjax:
-  enable: false
+  enable: true
   cdn: https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 # Post word count, reading duration, site total word count.
@@ -198,15 +200,15 @@ clicklove:
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: /medias/avatar.jpg
-  career: Software Engineer
-  introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
+  avatar: /medias/avatar.png
+  career: 程序猿
+  introduction: 程序猿怎么可能有女朋友。
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myProjects:
-  enable: true
+  enable: false
   data:
     hexo-theme-matery:
       icon: fas fa-file-alt
@@ -228,7 +230,7 @@ myProjects:
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的技能"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 mySkills:
-  enable: true
+  enable: false
   data:
     Java:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
@@ -315,7 +317,7 @@ valine:
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://github.com/l616769490/
   title: Fork Me
 
 # The password verification feature of read post. To use this feature,
@@ -450,9 +452,9 @@ tidio:
   enable: false
   public_key:
 
-#背景canvas-nest
+#背景粒子
 canvas_nest:
-  enable: false
+  enable: true
   color: 0,0,255 # 线条颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
   pointColor: 0,0,255 # 交点颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
   opacity: 0.7 # 线条透明度（0~1）, 默认: 0.5
