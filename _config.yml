@@ -7,13 +7,13 @@ title:
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: 星泪
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://xlxk.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -99,7 +99,7 @@ theme: mymatery
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/l616769490/l616769490.github.io.git
+  repo: https://github.com/xingluoxingkong/xingluoxingkong.github.io.git
   branch: master
 
 
